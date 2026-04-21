@@ -1,6 +1,6 @@
 module github.com/nuulun/contracts
 
-go 1.25.4
+go 1.25.0
 
 require (
 	google.golang.org/genproto/googleapis/api v0.0.0-20260330182312-d5a96adf58d8
