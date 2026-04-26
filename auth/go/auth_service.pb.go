@@ -344,7 +344,7 @@ const file_auth_service_proto_rawDesc = "" +
 	"\x05Login\x12\x12.auth.LoginRequest\x1a\x0f.auth.TokenPair\x120\n" +
 	"\aRefresh\x12\x14.auth.RefreshRequest\x1a\x0f.auth.TokenPair\x129\n" +
 	"\bValidate\x12\x15.auth.ValidateRequest\x1a\x16.auth.ValidateResponse\x126\n" +
-	"\x06Logout\x12\x14.auth.RefreshRequest\x1a\x16.google.protobuf.EmptyB)Z'github.com/nuulun/auth/pkg/auth/go;authb\x06proto3"
+	"\x06Logout\x12\x14.auth.RefreshRequest\x1a\x16.google.protobuf.EmptyB*Z(github.com/nuulun/contracts/auth/go;authb\x06proto3"
 
 var (
 	file_auth_service_proto_rawDescOnce sync.Once

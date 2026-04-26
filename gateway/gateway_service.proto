@@ -98,34 +98,7 @@ service Gateway {
       delete: "/api/v1/users/me"
     };
   }
-
-  // Транзакции
-  rpc Deposit(DepositRequest) returns (google.protobuf.Empty) {
-    option (google.api.http) = {
-      post: "/api/v1/transactions/deposit",
-      body: "*"
-    };
-  }
-
-  rpc Withdraw(WithdrawRequest) returns (google.protobuf.Empty) {
-    option (google.api.http) = {
-      post: "/api/v1/transactions/withdraw",
-      body: "*"
-    };
-  }
-
-  rpc Transfer(TransferRequest) returns (google.protobuf.Empty) {
-    option (google.api.http) = {
-      post: "/api/v1/transactions/transfer",
-      body: "*"
-    };
-  }
-
-  rpc GetTransactions(GetTransactionsRequest) returns (GetTransactionsResponse) {
-    option (google.api.http) = {
-      get: "/api/v1/transactions"
-    };
-  }
+  
 }
 
 // Запросы для аутентификации
